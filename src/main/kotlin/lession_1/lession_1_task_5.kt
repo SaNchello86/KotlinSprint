@@ -1,7 +1,9 @@
 package lession_1
 
 fun main() {
-    val second = 6480 / 60
+    var secondYG = 6480/60
+    val result = secondYG-60
 
-        println("Время проведённое в космосе - " + second + ":00")
+        println("Время проведённое в космосе Юрием Гагариным: - " + result + ":00")
+
 }
