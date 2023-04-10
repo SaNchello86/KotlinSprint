@@ -1,11 +1,11 @@
 package lession_2
 fun main() {
-    val staff = 50
-    val interns = 30
-    val employeeSalary = 30000
-    val internsSalary = 20000
-    val salaryForEmployees = staff * employeeSalary
-    val salaryForInterns = interns * internsSalary + salaryForEmployees
+    var staff = 70
+    var interns = 30
+    var salaryOfEmployees = 30000
+    var salaryOfInterns = 20000
+    val salaryForEmployees = staff * salaryOfEmployees
+    val salaryForInterns = interns * salaryOfInterns + salaryForEmployees
     val averageSalary =  salaryForInterns / staff + interns
 
     println(salaryForEmployees)
