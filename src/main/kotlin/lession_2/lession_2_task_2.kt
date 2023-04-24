@@ -4,12 +4,13 @@ fun main() {
     val interns = 30
     val salaryOfEmployees = 30000
     val salaryOfInterns = 20000
-    val salaryForEmployees = staff * salaryOfEmployees
-    val salaryForInterns = interns * salaryOfInterns + salaryForEmployees
-    val averageSalary =  salaryForInterns / staff + interns
+    val salaryForEmployees = staff * salaryOfEmployees // Зарплата сотрудников
+    val salaryForInterns = interns * salaryOfInterns // Зарплата интернов
+    val salaryForAll = salaryForEmployees + salaryForInterns // Общая зарплата
+    val salaryAverage = salaryForAll / staff + interns // Средняя зарплата сотрудника
 
     println(salaryForEmployees)
-    println(salaryForInterns)
-    println(averageSalary)
+    println(salaryForAll)
+    println(salaryAverage)
 
 }
