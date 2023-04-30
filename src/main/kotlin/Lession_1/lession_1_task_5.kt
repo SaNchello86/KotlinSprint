@@ -9,5 +9,4 @@ fun main() {
     val inSpaceSeconds = inSpaceMinute / oneSeconds
 
     println(String.format("%02d:%02d", inSpaceMinute, inSpaceSeconds,))
-
 }
