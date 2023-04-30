@@ -6,6 +6,7 @@ class lession_2_task_4 {
     val сrystalOreBuff = сrystalOre * buff
     val ironOreOreBuff = ironOre * buff
 
-    println("Кристалическая руда - " + "%02d:%02d" + сrystalOreBuff)
-    println("Железная руда - " + ("%02d:%02d" + ironOreOreBuff))
+    println ("Кристалическая руда - " + String.format ("%.0f", сrystalOreBuff) )
+    println ("Железная руда - " + String.format ("%.0f", ironOreOreBuff) )
+
 }
